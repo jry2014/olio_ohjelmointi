@@ -1,0 +1,109 @@
+#FILE CREATED BY AI 
+# =========================
+# OS FILES
+# =========================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# =========================
+# VS CODE
+# =========================
+.vscode/
+.history/
+*.code-workspace
+
+# =========================
+# QT CREATOR / QT PROJECTS
+# =========================
+# Build directories
+build*/
+Build*/
+CMakeBuild*/
+out*/
+
+# Qt Creator user-specific files
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+*.creator.user
+*.creator.user.*
+*.autosave
+
+# qmake generated files
+Makefile*
+*.moc
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+*.qmlc
+*.jsc
+
+# Object & binary files
+*.obj
+*.o
+*.a
+*.so
+*.so.*
+*.dll
+*.dylib
+*.exe
+*.app
+*.out
+
+# Temporary files
+*.tmp
+*.log
+*.bak
+*.swp
+*.swo
+
+# =========================
+# CMAKE
+# =========================
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+install_manifest.txt
+CTestTestfile.cmake
+compile_commands.json
+
+# =========================
+# OTHER TOOLS
+# =========================
+# CLion, JetBrains IDEs
+.idea/
+
+# =========================
+# PACKAGE MANAGEMENT
+# =========================
+# If you use conan or vcpkg
+conanbuildinfo.*
+conaninfo.txt
+.conan/
+vcpkg_installed/
+
+# =========================
+# MISC
+# =========================
+*.ipch
+*.pch
+*.obj
+*.idb
+*.pdb
+*.tlog
+*.manifest
+*.res
+
+
