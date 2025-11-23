@@ -1,4 +1,3 @@
-// main.cpp
 #include "Chef.h"
 #include "ItalianChef.h"
 using namespace std;

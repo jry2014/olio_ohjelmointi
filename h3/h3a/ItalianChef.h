@@ -1,4 +1,3 @@
-// ItalianChef.h
 #ifndef ITALIANCHEF_H
 #define ITALIANCHEF_H
 

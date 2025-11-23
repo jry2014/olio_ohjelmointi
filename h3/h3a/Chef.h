@@ -1,4 +1,3 @@
-// Chef.h
 #ifndef CHEF_H
 #define CHEF_H
 
