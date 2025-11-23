@@ -1,4 +1,3 @@
-// main.cpp
 #include "Animal.h"
 #include "Dog.h"
 
