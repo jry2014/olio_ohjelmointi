@@ -2,6 +2,7 @@
 #define WHEEL_H
 
 #include <string>
+
 using namespace std;
 
 class Wheel {
@@ -10,25 +11,14 @@ private:
     string type;
 
 public:
-    Wheel() : size(0), type("") {}
+    Wheel();
+    Wheel(int s, string t);
 
-    Wheel(int s, string t) : size(s), type(t) {}
+    void setSize(int s);
+    int getSize() const;
 
-    void setSize(int s) {
-        size = s;
-    }
-
-    int getSize() const {
-        return size;
-    }
-
-    void setType(string t) {
-        type = t;
-    }
-
-    string getType() const {
-        return type;
-    }
+    void setType(string t);
+    string getType() const;
 };
 
 #endif

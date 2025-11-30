@@ -7,25 +7,14 @@ private:
     double displacement;
 
 public:
-    Engine() : horsepower(0), displacement(0.0) {}
+    Engine();
+    Engine(int hp, double disp);
 
-    Engine(int hp, double disp) : horsepower(hp), displacement(disp) {}
+    void setHorsepower(int hp);
+    int getHorsepower() const;
 
-    void setHorsepower(int hp) {
-        horsepower = hp;
-    }
-
-    int getHorsepower() const {
-        return horsepower;
-    }
-
-    void setDisplacement(double disp) {
-        displacement = disp;
-    }
-
-    double getDisplacement() const {
-        return displacement;
-    }
+    void setDisplacement(double disp);
+    double getDisplacement() const;
 };
 
 #endif
